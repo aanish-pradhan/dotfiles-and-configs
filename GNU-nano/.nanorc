@@ -1,0 +1,19 @@
+# My .nanorc file for use with the Windows Subsystem for Linux (WSL). 
+#
+# @author Aanish Pradhan
+# @version 07/22/2022
+
+# SYNTAX HIGHLIGHTING
+
+include "/usr/share/nano/*"## System
+include "~/.local/share/nano/Syntax-Configuration-Files/*" ## User
+
+# EDITOR SETTINGS
+set autoindent ## Automatic indentation
+set backup ## File backup
+set backupdir "~/.nano-backups/" ## Backup directory
+set guidestripe 80 ## Character limit marker
+set historylog ## History file
+set mouse ## Mouse support
+set nowrap ## No text wrap
+set tabsize 4 ## Indentation size
