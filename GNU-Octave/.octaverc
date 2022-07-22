@@ -1,0 +1,9 @@
+# My .octaverc file for use with the Windows Subsystem for Linux (WSL). Using 
+# the Qt5 graphics toolkit causes display issues with plots and figures when 
+# using X11 forwarding with WSL. gnuplot offers a more stable solution. 
+#
+# @author Aanish Pradhan
+# @version 07/22/2022
+
+# GRAPHICS TOOLKIT
+graphics_toolkit("gnuplot")
