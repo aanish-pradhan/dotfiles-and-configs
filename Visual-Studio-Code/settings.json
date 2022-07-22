@@ -1,0 +1,24 @@
+/**
+ * My settings.json file for use with Microsoft Visual Studio Code (VSCode).
+ * 
+ * @author Aanish Pradhan
+ * @version 07/22/2022
+ */
+
+ {
+	// EDITOR SETTINGS
+	"editor.fontFamily": "SF Mono, 'SF Mono', regular",
+	"editor.insertSpaces": false,
+	"editor.rulers": [
+        80
+    ],
+	"files.autoSave": "afterDelay",
+	"workbench.colorTheme": "Default Dark+",
+	
+	// JULIA SETTINGS (HOST)
+	"julia.enableTelemetry": false,
+	"julia.symbolCacheDownload": true,	
+	"terminal.integrated.commandsToSkipShell": [
+		"language-julia.interrupt"
+	],
+}
