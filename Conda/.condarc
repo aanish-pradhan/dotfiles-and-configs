@@ -1,0 +1,10 @@
+# My .condarc file for use with the Windows Subsystem for Linux (WSL).
+#
+# @author Aanish Pradhan
+# @version 07/22/2022
+
+# STOPS CONDA FROM CHANGING PS1 PROMPT USING ITS METHOD
+changeps1: false
+
+# STOPS BASE CONDA ENVIRONMENT ACTIVATION ON STARTUP
+auto_activate_base: false
