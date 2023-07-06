@@ -1,24 +1,32 @@
 /**
- * My settings.json file for use with Microsoft Visual Studio Code (VSCode).
- * 
+ * Microsoft Visual Studio Code user settings.
+ *
  * @author Aanish Pradhan
- * @version 07/22/2022
+ * @version 2023.07.06
  */
-
- {
+{
 	// EDITOR SETTINGS
+
+	// Built-in Settings
+	"editor.detectIndentation": true,
 	"editor.fontFamily": "SF Mono, 'SF Mono', regular",
 	"editor.insertSpaces": false,
 	"editor.rulers": [
-        80
-    ],
-	"files.autoSave": "afterDelay",
-	"workbench.colorTheme": "Default Dark+",
-	
-	// JULIA SETTINGS (HOST)
-	"julia.enableTelemetry": false,
-	"julia.symbolCacheDownload": true,	
-	"terminal.integrated.commandsToSkipShell": [
-		"language-julia.interrupt"
+		80, 120
 	],
+	"editor.tabSize": 4,
+	"files.autoSave": "afterDelay",
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "right"
+	},
+	"window.zoomLevel": -1,
+	"workbench.colorTheme": "Visual Studio Dark",
+
+	// Language Settings
+	"[python]": {
+		"editor.formatOnType": true
+	}
+
+	// Extension Settings
 }
